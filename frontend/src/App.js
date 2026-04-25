@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://docuchat-backend-n6lv.onrender.com";
 
 export default function App() {
   const [messages, setMessages] = useState([]);
